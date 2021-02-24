@@ -14,8 +14,7 @@
 }
 
 .navigation-item a:hover,
-.navigation-item a:active,
-.navigation-item a.active {
+.navigation-item .active {
   color: #40a4c8;
 }
 
@@ -35,8 +34,6 @@
     border-bottom: 4px solid transparent;
   }
 
-  .navigation-item a:hover,
-  .navigation-item a:active,
   .navigation-item a.active {
     background-color: #8f5c2c;
     border-bottom: 4px solid #40a4c8;
