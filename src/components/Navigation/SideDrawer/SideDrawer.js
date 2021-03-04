@@ -8,7 +8,10 @@ const SideDrawer = (props) => {
   return (
     <React.Fragment>
       <Backdrop show={props.open} clicked={props.closed} />
-      <div className={`side-drawer ${props.open ? "open" : "close"}`}>
+      <div
+        className={`side-drawer ${props.open ? "open" : "close"}`}
+        onClick={props.closed}
+      >
         <div className='side-drawer-logo'>
           <Logo />
         </div>
